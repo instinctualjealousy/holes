@@ -1,0 +1,14 @@
+{
+    "version": "1.4.5.0",
+    "description": "Tool and driver for using DreamConn+ on Windows",
+    "homepage": "https://www.dreammods.net/dreamconn.html",
+    "license": "Freeware",
+    "url": "https://www.dreammods.net/uploads/2/7/7/4/27749543/dreamconn_utility.rar",
+    "hash": "081adddf8e919493c97e4b1cc9f400334d4a0de14777471aaf1b30e2dd548945",
+    "shortcuts": [
+        [
+            "DreamConn_Utility.exe",
+            "DreamConn Utility"
+        ]
+    ]
+}
