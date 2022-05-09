@@ -3,6 +3,7 @@
     "description": "Tool to help build GDEmu compatible cards for GDMenu and openMenu",
     "homepage": "https://github.com/sonik-br/GDMENUCardManager",
     "license": "GPL-3.0-only",
+    "notes": ".NET Framework 5.0 is required.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/sonik-br/GDMENUCardManager/releases/download/v1.3.5/GDMENUCardManager.v1.3.5-win-x64.zip",
