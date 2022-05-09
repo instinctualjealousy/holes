@@ -9,7 +9,7 @@
         "When ran, sm64pcbuilder2 will ask for MSYS2 location, and it will go over",
         "your MSYS2 install for latest updates and fixes, so don't be alarmed.",
         "MSYS2 updates on the scoop-side *may* require sm64pcbuilder2 recheck and rebuild MSYS2 to its needs.",
-        "If you wish to delete config, it is stored in \"C:\\Users\\<userdir>\\AppData\\Local\\gunvalk-Filipianosol-GTN\".",
+        "If you wish to delete config, it is stored in \"C:\\Users\\<username>\\AppData\\Local\\gunvalk-Filipianosol-GTN\".",
         "It seems to store settings per-version, so persistence is unlikely through updates."
     ],
     "url": "https://sm64pc.info/sm64pcbuilder2/downloads/sm64pcbuilder2.zip",
