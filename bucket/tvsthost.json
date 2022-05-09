@@ -13,7 +13,7 @@
             "hash": "1c1f9c5dd1c61f7856ea155741d49b668f8cf15b4645a73403d0fe85785b781b"
         }
     },
-    "post_install": "if (!(Test-Path \"$persist_dir\\vsthost.INI\")) { New-Item -ItemType File \"$dir\\vsthost.INI\" | Out-Null }",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\vsthost.INI\")) { New-Item -ItemType File \"$dir\\vsthost.INI\" | Out-Null }",
     "shortcuts": [
         [
             "vsthost.exe",

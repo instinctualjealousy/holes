@@ -12,7 +12,7 @@
     ],
     "url": "https://downloads.xiph.org/releases/icecast/icecast_win32_2.4.4.exe#/dl.7z",
     "hash": "0291014c1e5127d9af669902fab6bd60059dcbe0563832a48c9d00fc156c19b4",
-    "post_install": "if (!(Test-Path \"$dir\\log\")) { New-Item -ItemType Directory \"$dir\\log\" | Out-Null }",
+    "pre_install": "if (!(Test-Path \"$dir\\log\")) { New-Item -ItemType Directory \"$dir\\log\" | Out-Null }",
     "shortcuts": [
         [
             "icecast.bat",
