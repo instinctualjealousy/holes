@@ -4,7 +4,7 @@
     "homepage": "https://github.com/otya128/winevdm",
     "license": "GPL-2.0-only",
     "notes": [
-        "Go into $dir and feel free to install otvdm with or without the console visible.",
+        "Go into \"$dir\" and feel free to install otvdm with or without the console visible.",
         "Just run \"install\" or \"install (no console)\"! You can later run uninstall.reg if you wish to remove it."
     ],
     "url": "https://github.com//otya128/winevdm/releases/download/v0.8.0/otvdm-v0.8.1.zip",

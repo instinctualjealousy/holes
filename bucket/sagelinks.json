@@ -3,6 +3,7 @@
     "description": "A GUI utility for viewing various links such as junctions, symlinks, applinks and hardlinks on the filesystem",
     "homepage": "https://github.com/raspopov/SageLinks",
     "license": "GPL-3.0-only",
+    "notes": "SageLinks stores its settings at \"HKEY_CURRENT_USER\\SOFTWARE\\Raspopov\\SageLinks\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/raspopov/SageLinks/releases/download/1.0.0.4/sagelinks_1.0.0.4_64-bit.exe",
