@@ -3,6 +3,7 @@
     "description": "Stream What You Hear reimplemented in rust",
     "homepage": "https://github.com/dheijl/swyh-rs",
     "license": "MIT",
+    "notes": "swyh-rs stores its settings at \"C:\\Users\\<username>\\.swyh-rs\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/dheijl/swyh-rs/releases/download/1.3.25/swyh-rs.zip",
