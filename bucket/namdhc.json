@@ -1,0 +1,22 @@
+{
+    "version": "1.06",
+    "description": "GUI for chdman, a tool for compressing disk images included with MAME",
+    "homepage": "https://github.com/umageddon/namDHC",
+    "license": "GPL-3.0-only",
+    "notes": "chdman is included. Run NamDHC from shortcut, or you can utilize chdman directly on PATH.",
+    "url": "https://github.com/umageddon/namDHC/releases/download/v1.06/namDHC_v106.zip",
+    "hash": "226feb55116debb39fc8c7f4f60d6e55da75db0875302f00eed9951b2b34c3ce",
+    "bin": "chdman.exe",
+    "shortcuts": [
+        [
+            "namDHC.exe",
+            "namDHC"
+        ]
+    ],
+    "pre_install": "if(!(Test-Path \"$persist_dir\\namDHC.ini\")) { Set-Content \"$dir\\namDHC.ini\" (@('[Settings]', 'checkForUpdatesAtStartup=no') -join \"`r`n\") -Encoding Unicode | Out-Null }",
+    "persist": "namDHC.ini",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/umageddon/namDHC/releases/download/v$version/namDHC_v$cleanVersion.zip"
+    }
+}
