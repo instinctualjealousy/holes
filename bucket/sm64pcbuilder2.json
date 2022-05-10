@@ -15,10 +15,10 @@
     "url": "https://sm64pc.info/sm64pcbuilder2/downloads/sm64pcbuilder2.zip",
     "hash": "b313507690adcba8cb79e697707d2c43bccf836519f7980ac21db56527ca792e",
     "pre_install": [
-        "if (!(Test-Path \"$dir\\assets\")) { New-Item -ItemType Directory \"$dir\\assets\" | Out-Null }",
-        "if (!(Test-Path \"$dir\\logs\")) { New-Item -ItemType Directory \"$dir\\logs\" | Out-Null }",
-        "if (!(Test-Path \"$dir\\mods\")) { New-Item -ItemType Directory \"$dir\\mods\" | Out-Null }",
-        "if (!(Test-Path \"$dir\\repos\")) { New-Item -ItemType Directory \"$dir\\repos\" | Out-Null }"
+        "if (!(Test-Path \"$persist_dir\\assets\")) { New-Item -ItemType Directory \"$dir\\assets\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\logs\")) { New-Item -ItemType Directory \"$dir\\logs\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\mods\")) { New-Item -ItemType Directory \"$dir\\mods\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\repos\")) { New-Item -ItemType Directory \"$dir\\repos\" | Out-Null }"
     ],
     "persist": [
         "assets",
