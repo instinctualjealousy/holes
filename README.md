@@ -15,10 +15,12 @@ Notes:
 ---------------------------------
 
 * icecast manifest requires TLS1.3 support on the OS to be enabled (this can cause issues)
-   * This is because xiph is braindead for hosting a website that has only TLS1.3 ciphers
+   * This is because icecast.org does not provide lesser than TLS1.3 ciphers
    * ...actually this would only be a problem if Microsoft supported TLS1.3 out of the box
    * ...and not in a way that when turned on makes certain connections fail to fall back to less secure ciphers
-   * Will update information here if best-of-both-worlds solution is found- I'm still currently running PowerShell in SystemDefault SecurityPolicy
+   * I've tried playing with SecurityPolicy but haven't had 100% luck, but SystemDefault definitely causes problems
+   * Might be ideal to temporarily configure PowerShell like this for packages that hate TLS 1.3 being enabled:
+   `[Net.ServicePointManager]::SecurityProtocol = ([Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12)`
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
 * A few manifests do not have autoupdate routines due to being:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
