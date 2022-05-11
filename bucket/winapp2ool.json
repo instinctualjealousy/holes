@@ -1,0 +1,19 @@
+{
+    "version": "1.4+",
+    "description": "A utility for updating and trimming Winapp2.ini, a cleaning-routines file for CCleaner and other compatible cleaners",
+    "homepage": "https://github.com/MoscaDotTo/Winapp2",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "winapp2ool has its own update mechanism, and said updates are not pushed to Releases.",
+        "Said mechanism shouldn't cause any issues to use, from what I can tell.",
+        "Therefore, I have disabled autoupdate and marked the version 1.4+ as it is on GitHub."
+    ],
+    "url": "https://github.com/MoscaDotTo/Winapp2/releases/download/1.4/winapp2ool.exe",
+    "hash": "59467eb6dac8716afbd617f7e01b1b32dc00056ad2dd92f4016ae721809fd1af",
+    "shortcuts": [
+        [
+            "winapp2ool.exe",
+            "winapp2ool"
+        ]
+    ]
+}
