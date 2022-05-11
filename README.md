@@ -15,13 +15,9 @@ Notes:
 ---------------------------------
 
 * xbox-saves-manager and xbox-soundtrack-editor manifests point to self-hosted URLs and connect with insecure HTTP
-* icecast manifest requires TLS1.3 support on the OS to be enabled (this can cause issues)
+* icecast manifest requires TLS1.3 support, which isn't enabled by default
    * This is because icecast.org does not provide lesser than TLS1.3 ciphers
-   * ...actually this would only be a problem if Microsoft supported TLS1.3 out of the box
-   * ...and not in a way that when turned on makes certain connections fail to fall back to less secure ciphers
-   * I've tried playing with SecurityPolicy but haven't had 100% luck, but SystemDefault definitely causes problems
-   * Might be ideal to temporarily configure PowerShell like this for packages that hate TLS 1.3 being enabled:
-   `[Net.ServicePointManager]::SecurityProtocol = ([Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls11 -bor [Net.SecurityProtocolType]::Tls12)`
+   * Doing this can cause issues, depending on the method- will research it further
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
 * A few manifests do not have autoupdate routines due to being:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
