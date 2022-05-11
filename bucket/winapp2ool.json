@@ -6,7 +6,9 @@
     "notes": [
         "winapp2ool has its own update mechanism, and said updates are not pushed to Releases.",
         "Said mechanism shouldn't cause any issues to use, from what I can tell.",
-        "Therefore, I have disabled autoupdate and marked the version 1.4+ as it is on GitHub."
+        "Therefore, I have disabled autoupdate and marked the version 1.4+ as it is on GitHub.",
+        "If not existing- a default winapp2.ini is created with save/read \"settings from disk\" turned on.",
+        "If not desired, you can turn this off with menu #7."
     ],
     "url": "https://github.com/MoscaDotTo/Winapp2/releases/download/1.4/winapp2ool.exe",
     "hash": "59467eb6dac8716afbd617f7e01b1b32dc00056ad2dd92f4016ae721809fd1af",
@@ -15,5 +17,7 @@
             "winapp2ool.exe",
             "winapp2ool"
         ]
-    ]
+    ],
+    "pre_install": "if(!(Test-Path \"$persist_dir\\winapp2ool.ini\")) { Set-Content \"$dir\\winapp2ool.ini\" (@('[Winapp2ool]', 'saveSettingsToDisk=True', 'readSettingsFromDisk=True') -join \"`r`n\") -Encoding Unicode | Out-Null }",
+    "persist": "winapp2ool.ini"
 }
