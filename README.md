@@ -14,6 +14,7 @@ To add this bucket, run `scoop bucket add holes https://github.com/instinctualje
 Notes:
 ---------------------------------
 
+* xbox-saves-manager and xbox-soundtrack-editor manifests point to self-hosted URLs and connect with insecure HTTP
 * icecast manifest requires TLS1.3 support on the OS to be enabled (this can cause issues)
    * This is because icecast.org does not provide lesser than TLS1.3 ciphers
    * ...actually this would only be a problem if Microsoft supported TLS1.3 out of the box
