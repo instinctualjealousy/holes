@@ -15,9 +15,8 @@ Notes:
 ---------------------------------
 
 * xbox-saves-manager and xbox-soundtrack-editor manifests point to self-hosted URLs and connect with insecure HTTP
-* icecast manifest requires TLS1.3 support, which isn't enabled by default
-   * This is because icecast.org does not provide lesser than TLS1.3 ciphers
-   * Enabling this can cause issues, depending on the method- will research it further
+* xiph.org requires TLS1.3 so icecast manifest now points to a mirror
+   * I have also disabled checkver/autoupdate for both the same reason, and the fact Icecast hasn't been updated in 4 years
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
 * A few manifests do not have autoupdate routines due to being:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
