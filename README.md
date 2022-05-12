@@ -18,7 +18,7 @@ Notes:
 * xiph.org requires TLS1.3 so icecast manifest now points to a mirror
    * I have also disabled checkver/autoupdate for both the same reason, and the fact Icecast hasn't been updated in 4 years
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
-* A few manifests do not have autoupdate routines due to being:
+* A few manifests do not have checkver/autoupdate routines due to being:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
    * Difficult to implement, due to poor documentation or website design
 * The rare manifest that doesn't have $version in URL or filename will result in hash fails when it's updated on server- that is, if I don't keep up on autoupdates as fast as possible
