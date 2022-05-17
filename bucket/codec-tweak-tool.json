@@ -1,10 +1,10 @@
 {
-    "version": "6.6.5",
+    "version": "6.6.6",
     "description": "A tool for managing Windows codecs and cleaning them up",
     "homepage": "https://codecguide.com/download_other.htm",
     "license": "Freeware",
-    "url": "https://files2.codecguide.com/CodecTweakTool_665.exe",
-    "hash": "f84f1025a5bc81de5f64631cb18d367ab82f979aebb54b14f4cc68f672dbc95b",
+    "url": "https://files3.codecguide.com/CodecTweakTool_666.exe",
+    "hash": "07ff458f3617a109fdd97665168a7e311d0bd7862905b327a98fe929be630335",
     "pre_install": "Get-ChildItem \"$dir\\CodecTweakTool_***.exe\" | Rename-Item -NewName \"$dir\\CodecTweakTool.exe\"",
     "shortcuts": [
         [
@@ -16,6 +16,6 @@
         "regex": "Version ([\\d.]+)"
     },
     "autoupdate": {
-        "url": "https://files2.codecguide.com/CodecTweakTool_$cleanVersion.exe"
+        "url": "https://files3.codecguide.com/CodecTweakTool_$cleanVersion.exe"
     }
 }
