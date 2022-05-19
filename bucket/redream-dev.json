@@ -1,0 +1,51 @@
+{
+    "version": "1.5.0-1044-g1e79940",
+    "description": "Sega Dreamcast emulator that can render games in HD and 4K (development)",
+    "homepage": "https://redream.io",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://redream.io"
+    },
+    "notes": "Place redream.key in relevant persist dir (redream-dev) if owned and \"scoop reset redream-dev\".",
+    "architecture": {
+        "64bit": {
+            "url": "https://redream.io/download/redream.x86_64-windows-v1.5.0-1044-g1e79940.zip",
+            "hash": "647dfa50cb230969215b1e935cacfc250f33318a6a87d4776cfd8001871806e4"
+        }
+    },
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\cache\")) { New-Item -ItemType Directory \"$dir\\cache\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\redream.cfg\")) { New-Item \"$dir\\redream.cfg\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\vmu0.bin\")) { New-Item \"$dir\\vmu0.bin\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\vmu1.bin\")) { New-Item \"$dir\\vmu1.bin\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\vmu2.bin\")) { New-Item \"$dir\\vmu2.bin\" | Out-Null }",
+        "if (!(Test-Path \"$persist_dir\\vmu3.bin\")) { New-Item \"$dir\\vmu3.bin\" | Out-Null }"
+    ],
+    "bin": "redream.exe",
+    "shortcuts": [
+        [
+            "redream.exe",
+            "Redream (dev)"
+        ]
+    ],
+    "persist": [
+        "cache",
+        "redream.cfg",
+        "redream.key",
+        "vmu0.bin",
+        "vmu1.bin",
+        "vmu2.bin",
+        "vmu3.bin"
+    ],
+    "checkver": {
+        "url": "https://redream.io/download",
+        "regex": "v(\\d\\.\\d\\.\\d-\\d{4}-g[a-f0-9]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://redream.io/download/redream.x86_64-windows-v$version.zip"
+            }
+        }
+    }
+}
