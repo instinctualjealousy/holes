@@ -1,0 +1,9 @@
+{
+    "version": "1.0",
+    "description": "Software for extracting OGG streams embedded in files",
+    "homepage": "https://github.com/arkeet/oggextract",
+    "license": "Public Domain",
+    "url": "https://moriya.ca/oggextract/oggextract.zip",
+    "hash": "bbf276c5249b1e99ad197ec3013c72b86d3dfac29dee2dbfca20f0e0c7fd2253",
+    "bin": "oggextract.exe"
+}
