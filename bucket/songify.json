@@ -7,8 +7,12 @@
         "Songify stores its settings at \"C:\\Users\\<username>\\AppData\\Local\\Songify.Rocks\".",
         "Logs are stored at the Roaming equivalent!"
     ],
-    "url": "https://github.com/songify-rocks/Songify/releases/download/v1.3.0/Songify.zip",
-    "hash": "935b6530ee7c7cee69dd5c83437bcf8e4cc07f466072905403b70d18cb5cce94",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/songify-rocks/Songify/releases/download/v1.3.0/Songify.zip",
+            "hash": "935b6530ee7c7cee69dd5c83437bcf8e4cc07f466072905403b70d18cb5cce94"
+        }
+    },
     "shortcuts": [
         [
             "Songify.exe",
@@ -17,6 +21,10 @@
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/songify-rocks/Songify/releases/download/v$version/Songify.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/songify-rocks/Songify/releases/download/v$version/Songify.zip"
+            }
+        }
     }
 }
