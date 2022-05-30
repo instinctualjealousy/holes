@@ -1,0 +1,22 @@
+{
+    "version": "1.3.0",
+    "description": "Grabs Spotify/other services' current track information and can dump it to a text file",
+    "homepage": "https://github.com/songify-rocks/Songify",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "Songify stores its settings at \"C:\\Users\\<username>\\AppData\\Local\\Songify.Rocks\".",
+        "Logs are stored at the Roaming equivalent!"
+    ],
+    "url": "https://github.com/songify-rocks/Songify/releases/download/v1.3.0/Songify.zip",
+    "hash": "935b6530ee7c7cee69dd5c83437bcf8e4cc07f466072905403b70d18cb5cce94",
+    "shortcuts": [
+        [
+            "Songify.exe",
+            "Songify"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/songify-rocks/Songify/releases/download/v$version/Songify.zip"
+    }
+}
