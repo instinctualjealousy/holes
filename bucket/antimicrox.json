@@ -1,0 +1,28 @@
+{
+    "version": "3.2.4",
+    "description": "Currently maintained fork of antimicro, now available for Windows x64",
+    "homepage": "https://github.com/AntiMicroX/antimicrox",
+    "license": "GPL-3.0-only",
+    "notes": "AntiMicroX stores its settings at \"C:\\Users\\<username>\\AppData\\Local\\antimicrox\".",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.2.4/antimicrox-3.2.4-AMD64.exe#dl.7z",
+            "hash": "bb768ff2fab51548e697c76c153cb62d2dbc7ebc810877f5df4c3e77bbc12820"
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\antimicrox.exe",
+            "AntiMicroX"
+        ]
+    ],
+    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/AntiMicroX/antimicrox/releases/download/$version/antimicrox-$version-AMD64.exe#dl.7z"
+            }
+        }
+    }
+}
