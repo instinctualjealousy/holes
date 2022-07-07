@@ -23,9 +23,5 @@
         ]
     ],
     "post_install": "Remove-Item \"$dir\\bin\" -Force -Recurse",
-    "persist": "dosbox-x.conf",
-    "checkver": {
-        "github": "https://github.com/joncampbell123/dosbox-x",
-        "regex": "download/dosbox-x-v([\\d.]+)/dosbox-x-vsbuild-win64-(?<release>[\\d-]+)"
-    }
+    "persist": "dosbox-x.conf"
 }
