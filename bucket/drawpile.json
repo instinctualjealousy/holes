@@ -1,0 +1,40 @@
+{
+    "version": "2.1.20",
+    "description": "Online, collaborative drawing software",
+    "homepage": "https://drawpile.net",
+    "license": "GPL-3.0-only",
+    "notes": [
+        "Drawpile stores its settings at \"HKEY_CURRENT_USER\\SOFTWARE\\drawpile\".",
+        "It stores other running data in a folder called drawpile- both in Local and Roaming AppData."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://drawpile.net/files/win/drawpile-2.1.20-setup.exe",
+            "hash": "878a47414d5209e784a415d507aac864827490f106ed0290802a333d641a7ac4"
+        },
+        "32bit": {
+            "url": "https://drawpile.net/files/win/drawpile-2.1.20-setup-w32.exe",
+            "hash": "ffb20217c890f3c874df40bb9c43fe1ec843ba76eb2fc636c16ce45d3a0f05df"
+        }
+    },
+    "innosetup": true,
+    "shortcuts": [
+        [
+            "drawpile.exe",
+            "Drawpile"
+        ]
+    ],
+    "checkver": {
+        "regex": "Version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://drawpile.net/files/win/drawpile-$version-setup.exe"
+            },
+            "32bit": {
+                "url": "https://drawpile.net/files/win/drawpile-$version-setup-w32.exe"
+            }
+        }
+    }
+}
