@@ -1,5 +1,5 @@
 {
-    "version": "1.4.5.0",
+    "version": "1.4.6.0",
     "description": "Tool and driver for using DreamConn+ on Windows",
     "homepage": "https://www.dreammods.net/dreamconn.html",
     "license": "Freeware",
@@ -7,8 +7,8 @@
         "DreamConn+ Utility installs the ViGEm Bus Driver for controller support over Bluetooth (on supported OS),",
         "this driver of course will require manual uninstallation outside of the scope of \"scoop uninstall\"."
     ],
-    "url": "https://www.dreammods.net/uploads/2/7/7/4/27749543/dreamconn_utility.rar",
-    "hash": "081adddf8e919493c97e4b1cc9f400334d4a0de14777471aaf1b30e2dd548945",
+    "url": "https://www.dreammods.net/uploads/2/7/7/4/27749543/dreamconn__utility.rar",
+    "hash": "77fbd0256ce8515ef2bd2c1b2b2d107860be82d20b64e72949290edd1015f0b4",
     "shortcuts": [
         [
             "DreamConn_Utility.exe",
