@@ -23,18 +23,5 @@
             "drawpile.exe",
             "Drawpile"
         ]
-    ],
-    "checkver": {
-        "regex": "Version ([\\d.]+)"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://drawpile.net/files/win/drawpile-$version-setup.exe"
-            },
-            "32bit": {
-                "url": "https://drawpile.net/files/win/drawpile-$version-setup-w32.exe"
-            }
-        }
-    }
+    ]
 }
