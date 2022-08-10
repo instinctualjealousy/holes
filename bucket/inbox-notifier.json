@@ -3,7 +3,7 @@
     "description": "A tray utility to receive Gmail notifications instantly in the Windows taskbar",
     "homepage": "https://github.com/xavierfoucrier/inbox-notifier",
     "license": "MIT",
-    "notes": "Some data is contained within \"C:\\Users\\<userdir>\\AppData\\Local\\Xavier_Foucrier\".",
+    "notes": "Some data is contained within \"C:\\Users\\<username>\\AppData\\Local\\Xavier_Foucrier\".",
     "url": "https://github.com/xavierfoucrier/inbox-notifier/releases/download/v3.7.0/Inbox.Notifier.3.7.0.exe",
     "hash": "6089fe50452e000082daed11278f8a0bbe2aa5b6fd673e50bcaa590ba1cd880f",
     "innosetup": true,
