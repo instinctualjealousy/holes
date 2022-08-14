@@ -11,7 +11,12 @@
             "extract_dir": "waifu2x-ncnn-vulkan-GUI_2.1.1.1"
         }
     },
-    "bin": "waifu2x-ncnn-vulkan.exe",
+    "bin": [
+        "realcugan-ncnn-vulkan\\realcugan-ncnn-vulkan.exe",
+        "realesrgan-ncnn-vulkan\\realesrgan-ncnn-vulkan.exe",
+        "realsr-ncnn-vulkan\\realsr-ncnn-vulkan.exe",
+        "waifu2x-ncnn-vulkan\\waifu2x-ncnn-vulkan.exe"
+    ],
     "shortcuts": [
         [
             "waifu2x_ncnn_vulkan_gui.exe",
