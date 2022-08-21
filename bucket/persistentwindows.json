@@ -6,12 +6,12 @@
     "license": "GPL-3.0-only",
     "notes": [
         "Highly recommended to turn off PersistentWindows' built in updater.",
-        "Right-click the PW tray icon and select \"Disable upgrade notice\".",
-        "Database and settings are stored in \"C:\\Users\\<username>\\AppData\\Local\\PersistentWindows\"."
+        "Right-click the PW tray icon and select \"Disable upgrade notice\" for a one-time change.",
+        "To start the program with this setting, use the \"-check_upgrade=0\" argument.",
+        "Database is stored in \"C:\\Users\\<username>\\AppData\\Local\\PersistentWindows\"."
     ],
     "url": "https://github.com/kangyu-california/PersistentWindows/releases/download/5.38/PersistentWindows5.38.zip",
     "hash": "7b4f234458e71fa9b21c078c18a11e156d3f4e0022d89e521cc397b81a5213c8",
-    "bin": "PersistentWindows.exe",
     "shortcuts": [
         [
             "PersistentWindows.exe",
