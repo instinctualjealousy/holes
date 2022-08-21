@@ -1,0 +1,20 @@
+{
+    "version": "5.38",
+    "description": "Persists desktop window size and positions between resolution changes and other monitor disturbances",
+    "homepage": "https://github.com/kangyu-california/PersistentWindows",
+    "checkver": "github",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/kangyu-california/PersistentWindows/releases/download/5.38/PersistentWindows5.38.zip",
+    "hash": "7b4f234458e71fa9b21c078c18a11e156d3f4e0022d89e521cc397b81a5213c8",
+    "bin": "PersistentWindows.exe",
+    "pre_install": "sudo taskkill /im PersistentWindows.exe",
+    "shortcuts": [
+        [
+            "PersistentWindows.exe",
+            "PersistentWindows"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/kangyu-california/PersistentWindows/releases/download/$version/PersistentWindows$version.zip"
+    }
+}
