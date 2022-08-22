@@ -6,12 +6,7 @@
         "identifier": "Unknown",
         "url": "https://eithermouse.com/eula.txt"
     },
-    "notes": [
-        "EitherMouse saves its settings to \"HKEY_CURRENT_USER\\SOFTWARE\\EitherMouse\".",
-        "If reg-write failed, reinstall with elevated privileges.",
-        "That, or ignore. All it does is write the regkey to disable EitherMouse's internal updater.",
-        "This setting can be found in the small wrench menu in the upper right of the EitherMouse window."
-    ],
+    "notes": "EitherMouse saves its settings to \"HKEY_CURRENT_USER\\SOFTWARE\\EitherMouse\".",
     "url": "https://eithermouse.com/EitherMouse.exe",
     "hash": "ce9a60aeebba7971fdae41c3bddbd8ebefc9ce9717d1bdb8d11cc3e3bf825baf",
     "shortcuts": [
