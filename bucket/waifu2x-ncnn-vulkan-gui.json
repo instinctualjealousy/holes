@@ -1,14 +1,14 @@
 {
-    "version": "2.1.1.1",
+    "version": "2.1.1.2",
     "description": "GUI for waifu2x-ncnn-vulkan AI upscaling",
     "homepage": "https://github.com/f11894/waifu2x-ncnn-vulkan-GUI",
     "license": "MIT",
     "notes": "waifu2x-ncnn-vulkan GUI stores its settings at \"C:\\Users\\<username>\\AppData\\Local\\waifu2x_ncnn_vulkan_gui\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/f11894/waifu2x-ncnn-vulkan-GUI/releases/download/v2.1.1.1/waifu2x-ncnn-vulkan-GUI_2.1.1.1.zip",
-            "hash": "1e9d7258a24580c0a4567c55bc278fd65824dd64f8d016a3984288d33cf86e8b",
-            "extract_dir": "waifu2x-ncnn-vulkan-GUI_2.1.1.1"
+            "url": "https://github.com/f11894/waifu2x-ncnn-vulkan-GUI/releases/download/v2.1.1.2/waifu2x-ncnn-vulkan-GUI_2.1.1.2.zip",
+            "hash": "f9a5f6fbf9c601cd873a2a9895c2b53264a74b1a11e57031f72b63dda0e7665a",
+            "extract_dir": "waifu2x-ncnn-vulkan-GUI_2.1.1.2"
         }
     },
     "bin": [
