@@ -14,7 +14,7 @@ To add this bucket, run `scoop bucket add holes https://github.com/instinctualje
 Notes:
 ---------------------------------
 
-* xbox-saves-manager and xbox-soundtrack-editor manifests point to self-hosted URLs and connect with insecure HTTP
+* bat-to-exe-converter, xbox-saves-manager and xbox-soundtrack-editor manifests point to self-hosted URLs and connect with insecure HTTP
 * xiph.org requires TLS1.3 so icecast manifest now points to a mirror
    * I have also disabled checkver/autoupdate for both the same reason, and the fact Icecast hasn't been updated in 4 years
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
