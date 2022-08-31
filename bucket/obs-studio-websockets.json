@@ -18,7 +18,7 @@
                 "26e9af65b8eb34ecca872ea3df85963593f8b815fdb2953c3b28fe2920adf960"
             ],
             "installer": {
-                "script": "Remove-Item \"$dir\\obs-plugins\\32bit\"  -Force -Recurse"
+                "script": "Remove-Item \"$dir\\obs-plugins\\32bit\" -Force -Recurse"
             },
             "shortcuts": [
                 [
@@ -37,7 +37,7 @@
                 "26e9af65b8eb34ecca872ea3df85963593f8b815fdb2953c3b28fe2920adf960"
             ],
             "installer": {
-                "script": "Remove-Item \"$dir\\obs-plugins\\64bit\"  -Force -Recurse"
+                "script": "Remove-Item \"$dir\\obs-plugins\\64bit\" -Force -Recurse"
             },
             "shortcuts": [
                 [
