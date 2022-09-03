@@ -1,13 +1,13 @@
 {
-    "version": "1.4.3",
+    "version": "1.4.4",
     "description": "Stream What You Hear reimplemented in rust",
     "homepage": "https://github.com/dheijl/swyh-rs",
     "license": "MIT",
     "notes": "swyh-rs stores its settings at \"C:\\Users\\<username>\\.swyh-rs\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dheijl/swyh-rs/releases/download/1.4.3/swyh-rs.zip",
-            "hash": "3cef806f6e237b602944b0cfbb527f26ffdf26608bd1b473c9d8c19b3b4ae276"
+            "url": "https://github.com/dheijl/swyh-rs/releases/download/1.4.4/swyh-rs.zip",
+            "hash": "cc39c9420ede72a3f331e6cbe40c04282639c1db2b6748b6b144a9e65a9ae813"
         }
     },
     "shortcuts": [
