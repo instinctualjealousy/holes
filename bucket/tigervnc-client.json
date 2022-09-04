@@ -14,6 +14,7 @@
             "hash": "f103a781c16560b72d44b7d624082680436c9d4ea2e4799ff9f4d086f7dec2a5"
         }
     },
+    "bin": "vncviewer.exe",
     "shortcuts": [
         [
             "vncviewer.exe",
