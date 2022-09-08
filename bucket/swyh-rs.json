@@ -1,6 +1,6 @@
 {
     "version": "1.4.5",
-    "description": "Stream What You Hear reimplemented in rust",
+    "description": "Stream What You Hear, re-implemented in Rust",
     "homepage": "https://github.com/dheijl/swyh-rs",
     "license": "MIT",
     "notes": "swyh-rs stores its settings at \"C:\\Users\\<username>\\.swyh-rs\".",

@@ -4,7 +4,7 @@
     "homepage": "https://github.com/setvisible/DownZemAll",
     "license": "LGPL-3.0-only",
     "notes": [
-        "DownZemAll! stores its settings at \"HKEY_CURRENT_USER\\SOFTWARE\\Sebastien Vavassori\\DownZemAll!\".",
+        "DownZemAll! stores its settings at \"HKCU\\SOFTWARE\\Sebastien Vavassori\\DownZemAll!\".",
         "Stream cache is left at \"C:\\Users\\<username>\\.cache\"."
     ],
     "architecture": {

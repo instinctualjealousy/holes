@@ -3,7 +3,7 @@
     "description": "Grabs Spotify/iTunes current track info and dumps it to a simple text file",
     "homepage": "https://github.com/dlrudie/Snip",
     "license": "GPL-3.0-only",
-    "notes": "Snip stores its settings at \"HKEY_CURRENT_USER\\SOFTWARE\\Snip\".",
+    "notes": "Snip stores its settings at \"HKCU\\SOFTWARE\\Snip\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/dlrudie/Snip/releases/download/v7.0.5/Snip-v7.0.5.zip",
