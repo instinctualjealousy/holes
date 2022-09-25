@@ -1,14 +1,14 @@
 {
-    "version": "1.5.7.0",
+    "version": "1.6.0.0",
     "description": "CLI utility for controlling OBS via websockets",
     "homepage": "https://github.com/REALDRAGNET/OBSCommand",
     "license": "Unknown",
-    "url": "https://github.com/REALDRAGNET/OBSCommand/releases/download/1.5.7.0/OBSCommand_v1.5.7.zip",
-    "hash": "a21b953c7cfdb8490c4b2542030c80f1bdd09748e70db0337df54d3e8e24dcd5",
+    "url": "https://github.com/REALDRAGNET/OBSCommand/releases/download/1.6.0.0/OBSCommand_1.6.0.zip",
+    "hash": "92c2cda5022a5bbf394aa122500c6be2f656ff1243302b02d70d9d5b89b03088",
     "extract_dir": "OBSCommand",
     "bin": "OBSCommand.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/REALDRAGNET/OBSCommand/releases/download/$version/OBSCommand_v$majorVersion.$minorVersion.7.zip"
+        "url": "https://github.com/REALDRAGNET/OBSCommand/releases/download/$version/OBSCommand_$majorVersion.$minorVersion.0.zip"
     }
 }
