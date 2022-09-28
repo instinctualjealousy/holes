@@ -13,8 +13,7 @@
     "bin": "otvdm.exe",
     "checkver": {
         "url": "https://github.com/otya128/winevdm/releases/latest",
-        "regex": "<a href=\"(/otya128/winevdm/releases/download/.*?/otvdm-v)((\\d+\\.)+\\d+).zip\" ",
-        "replace": "${2}"
+        "regex": "Download otvdm-v([\\d.]+).zip"
     },
     "autoupdate": {
         "url": "https://github.com//otya128/winevdm/releases/download/v0.8.0/otvdm-v$version.zip",
