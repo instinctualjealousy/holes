@@ -9,6 +9,6 @@
     "bin": "OBSCommand.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/REALDRAGNET/OBSCommand/releases/download/$version/OBSCommand_$majorVersion.$minorVersion.1.zip"
+        "url": "https://github.com/REALDRAGNET/OBSCommand/releases/download/$version/OBSCommand_$version.zip"
     }
 }
