@@ -1,27 +1,32 @@
 {
-    "version": "3.2.5",
-    "description": "Currently maintained fork of antimicro, now available for Windows x64",
+    "version": "3.3.1",
+    "description": "Currently maintained fork of antimicro, a gamepad to KB+M mapper",
     "homepage": "https://github.com/AntiMicroX/antimicrox",
     "license": "GPL-3.0-only",
-    "notes": "AntiMicroX stores its settings at \"C:\\Users\\<username>\\AppData\\Local\\antimicrox\".",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.2.5/antimicrox-3.2.5-AMD64.exe#dl.7z",
-            "hash": "6b89b240f0266fde0ec3f70d47b83ac19a3232e7ceceff782138ca9f78a52b4e"
+            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.1/antimicrox-3.3.1-PortableWindows-AMD64.zip",
+            "hash": "ba7b3c8923a7fbd465cf7447626e2c62641e421f8d396f8918cb3d235208e6ca",
+            "extract_dir": "antimicrox-3.3.1-PortableWindows-AMD64"
         }
     },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\antimicrox_settings.ini\")) { New-Item -ItemType File \"$dir\\antimicrox_settings.ini\" | Out-Null }",
     "shortcuts": [
         [
             "bin\\antimicrox.exe",
             "AntiMicroX"
         ]
     ],
-    "post_install": "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\Uninstall.exe\" -Force -Recurse",
+    "persist": [
+        "bin\\antimicrox_settings.ini",
+        "profiles"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AntiMicroX/antimicrox/releases/download/$version/antimicrox-$version-AMD64.exe#dl.7z"
+                "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.1/antimicrox-$version-PortableWindows-AMD64.zip",
+                "extract_dir": "antimicrox-$version-PortableWindows-AMD64"
             }
         }
     }
