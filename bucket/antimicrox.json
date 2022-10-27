@@ -10,7 +10,7 @@
             "extract_dir": "antimicrox-3.3.1-PortableWindows-AMD64"
         }
     },
-    "pre_install": "if (!(Test-Path \"$persist_dir\\antimicrox_settings.ini\")) { New-Item -ItemType File \"$dir\\antimicrox_settings.ini\" | Out-Null }",
+    "pre_install": "if (!(Test-Path \"$persist_dir\\bin\\antimicrox_settings.ini\")) { New-Item -ItemType File \"$dir\\bin\\antimicrox_settings.ini\" | Out-Null }",
     "shortcuts": [
         [
             "bin\\antimicrox.exe",
