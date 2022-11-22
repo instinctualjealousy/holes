@@ -1,13 +1,13 @@
 {
-    "version": "3.3.1",
+    "version": "3.3.2",
     "description": "Currently maintained fork of antimicro, a gamepad to KB+M mapper",
     "homepage": "https://github.com/AntiMicroX/antimicrox",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.1/antimicrox-3.3.1-PortableWindows-AMD64.zip",
-            "hash": "ba7b3c8923a7fbd465cf7447626e2c62641e421f8d396f8918cb3d235208e6ca",
-            "extract_dir": "antimicrox-3.3.1-PortableWindows-AMD64"
+            "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.2/antimicrox-3.3.2-PortableWindows-AMD64.zip",
+            "hash": "948acbda8554ae10f494f9e8ce4b0c96fe4213f386ecdc9d1a733de4c4fa6b25",
+            "extract_dir": "antimicrox-3.3.2-PortableWindows-AMD64"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\bin\\antimicrox_settings.ini\")) { New-Item -ItemType File \"$dir\\bin\\antimicrox_settings.ini\" | Out-Null }",
@@ -25,7 +25,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.1/antimicrox-$version-PortableWindows-AMD64.zip",
+                "url": "https://github.com/AntiMicroX/antimicrox/releases/download/$version/antimicrox-$version-PortableWindows-AMD64.zip",
                 "extract_dir": "antimicrox-$version-PortableWindows-AMD64"
             }
         }
