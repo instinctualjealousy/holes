@@ -3,6 +3,7 @@
     "description": "Currently maintained fork of antimicro, a gamepad to KB+M mapper",
     "homepage": "https://github.com/AntiMicroX/antimicrox",
     "license": "GPL-3.0-only",
+    "notes": "antimicrox_settings.ini is not persisted due to Qt QSettings behavior breaking hardlinks.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/AntiMicroX/antimicrox/releases/download/3.3.2/antimicrox-3.3.2-PortableWindows-AMD64.zip",
@@ -17,10 +18,7 @@
             "AntiMicroX"
         ]
     ],
-    "persist": [
-        "bin\\antimicrox_settings.ini",
-        "profiles"
-    ],
+    "persist": "profiles",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
