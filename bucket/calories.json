@@ -1,16 +1,16 @@
 {
     "description": "Calories is a command-line tool for tracking calories and weight using the Harris Benedict formula for calculating your BMR (Basal Metabolic Rate)",
     "homepage": "https://github.com/zupzup/calories",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zupzup/calories/releases/download/1.0.4/calories_1.0.4_Windows_x86_64.tar.gz",
-            "hash": "27146783b9d7f6826ef71197f75e12a10cc6ccfb462ee6ac97c49959de629bc3"
+            "url": "https://github.com/zupzup/calories/releases/download/1.1.0/calories_1.1.0_Windows_x86_64.tar.gz",
+            "hash": "0c9c2f8ce7e18344969f86330c5dc2a2a1417509c12b6bb682777b4296d15a7f"
         },
         "32bit": {
-            "url": "https://github.com/zupzup/calories/releases/download/1.0.4/calories_1.0.4_Windows_i386.tar.gz",
-            "hash": "3c4c32d0b9a29785a7f47e5860b5af723d4617ef6cbe036ba6499ccc5fe4ce96"
+            "url": "https://github.com/zupzup/calories/releases/download/1.1.0/calories_1.1.0_Windows_i386.tar.gz",
+            "hash": "d3100cff894def3a21f25bb1aa7375f333e9ffc3de0bb6b0bbee2f632087c0e6"
         }
     },
     "bin": "calories.exe",
