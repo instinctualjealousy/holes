@@ -1,16 +1,16 @@
 {
     "description": "Calories is a command-line tool for tracking calories and weight using the Harris Benedict formula for calculating your BMR (Basal Metabolic Rate)",
     "homepage": "https://github.com/zupzup/calories",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zupzup/calories/releases/download/1.0.3/calories_1.0.3_windows_64-bit.zip",
-            "hash": "4315238b175d5de3ed40f2403b3e991bc7cb01bfc703d8acbf2b76de6355ef8c"
+            "url": "https://github.com/zupzup/calories/releases/download/1.0.4/calories_1.0.4_Windows_x86_64.tar.gz",
+            "hash": "27146783b9d7f6826ef71197f75e12a10cc6ccfb462ee6ac97c49959de629bc3"
         },
         "32bit": {
-            "url": "https://github.com/zupzup/calories/releases/download/1.0.3/calories_1.0.3_windows_32-bit.zip",
-            "hash": "0e46acab1ddec0a50d0573a9fb5c42ab76afb1eab9b6e927388af217195404fa"
+            "url": "https://github.com/zupzup/calories/releases/download/1.0.4/calories_1.0.4_Windows_i386.tar.gz",
+            "hash": "3c4c32d0b9a29785a7f47e5860b5af723d4617ef6cbe036ba6499ccc5fe4ce96"
         }
     },
     "bin": "calories.exe",
@@ -18,14 +18,14 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/zupzup/calories/releases/download/$version/calories_$version_windows_64-bit.zip"
+                "url": "https://github.com/zupzup/calories/releases/download/$version/calories_$version_Windows_x86_64.tar.gz"
             },
             "32bit": {
-                "url": "https://github.com/zupzup/calories/releases/download/$version/calories_$version_windows_32-bit.zip"
+                "url": "https://github.com/zupzup/calories/releases/download/$version/calories_$version_Windows_i386.tar.gz"
             }
         },
         "hash": {
-            "url": "$baseurl/calories_checksums.txt"
+            "url": "$baseurl/checksums.txt"
         }
     }
 }
