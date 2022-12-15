@@ -1,5 +1,5 @@
 {
-    "description": "eplacement for clip.exe in Windows that supports both read from/write to clipboard and uses UTF-8 encoding",
+    "description": "Replacement for clip.exe in Windows that supports both read from/write to clipboard and uses UTF-8 encoding",
     "homepage": "https://github.com/bluemarsh/utf8clip",
     "version": "1.0.0",
     "license": "MIT",
