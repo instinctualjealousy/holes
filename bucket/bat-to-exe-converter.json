@@ -3,7 +3,7 @@
     "description": "f2ko's Bat to Exe Converter, does what it says on the tin",
     "homepage": "https://www.f2ko.de/programme/bat-to-exe-converter",
     "license": "Freeware",
-    "url": "http://revoltcars.racing/archive/holes/Bat_To_Exe_Converter_Portable.7z",
+    "url": "http://revoltcars.tk/archive/holes/Bat_To_Exe_Converter_Portable.7z",
     "hash": "db0afb64da868ec95e72b5f450467951524aba7d219764459e100fac9ed0a7f9",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\settings\")) { New-Item \"$dir\\settings\" | Out-Null }",
