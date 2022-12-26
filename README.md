@@ -14,7 +14,7 @@ To add this bucket, run `scoop bucket add holes https://github.com/instinctualje
 Notes:
 ---------------------------------
 
-* bat-to-exe-converter and xbox-soundtrack-editor manifests point to self-hosted URLs and connect with insecure HTTP
+* Some manifests point to self-hosted URLs and connect with insecure HTTP (be sure to read JSONs so you know what you're doing)
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
 * A few manifests do not have checkver/autoupdate routines due to being:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
