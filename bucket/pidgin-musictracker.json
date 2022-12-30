@@ -3,6 +3,11 @@
     "description": "A Pidgin now-playing plugin to publish music you are listening to",
     "version": "0.4.22",
     "license": "GPL-2.0-only",
+    "notes": [
+        "This installation- given its methods- will be wiped out when Pidgin updates.",
+        "If only Pidgin supported putting pixmaps, locale and other extraneous dependencies in the \".purple\" folder...",
+        "Please force reinstall this manifest after an update of Pidgin to fix."
+    ],
     "url": "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/pidgin-musictracker/pidgin-musictracker-0.4.22.exe#/dl.7z",
     "hash": "2568ecb8e19367118c2207d2fe9044c5200443ab6ca147a3d21091186f2044f5",
     "post_install": [
