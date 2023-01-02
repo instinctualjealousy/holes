@@ -25,8 +25,8 @@
     "uninstaller": {
         "script": [
             "$pidgin = \"$(appdir pidgin)\\current\"",
-            "   Remove-Item \"$pidgin\\locale\\*\" -include purple-discord.mo -Recurse -Force",
-            "   Remove-Item \"$pidgin\\pixmaps\\*\" -include discord.png -Recurse -Force"
+            "Remove-Item \"$pidgin\\locale\\*\" -Include purple-discord.mo -Recurse -Force",
+            "Remove-Item \"$pidgin\\pixmaps\\*\" -Include discord.png -Recurse -Force"
         ]
     },
     "depends": [

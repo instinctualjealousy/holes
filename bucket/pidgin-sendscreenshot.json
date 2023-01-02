@@ -22,12 +22,10 @@
     "uninstaller": {
         "script": [
             "$pidgin = \"$(appdir pidgin)\\current\"",
-            "if (Test-Path \"$pidgin\\plugins\\screenshot.dll\") {",
-            "   Remove-Item \"$pidgin\\libcurl-4.dll\" -Force",
-            "   Remove-Item \"$pidgin\\locale\\*\" -include screenshot.mo -Recurse -Force",
-            "   Remove-Item \"$pidgin\\pidgin_screenshot_data\" -Recurse -Force",
-            "   Remove-Item \"$pidgin\\plugins\\screenshot.dll\" -Force",
-            "}"
+            "Remove-Item \"$pidgin\\libcurl-4.dll\" -Force",
+            "Remove-Item \"$pidgin\\locale\\*\" -Include screenshot.mo -Recurse -Force",
+            "Remove-Item \"$pidgin\\pidgin_screenshot_data\" -Recurse -Force",
+            "Remove-Item \"$pidgin\\plugins\\screenshot.dll\" -Force"
         ]
     },
     "depends": "pidgin"

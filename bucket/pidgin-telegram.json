@@ -19,11 +19,9 @@
     "uninstaller": {
         "script": [
             "$pidgin = \"$(appdir pidgin)\\current\"",
-            "if (Test-Path \"$pidgin\\plugins\\libtelegram-tdlib.dll\") {",
-            "   Remove-Item \"$pidgin\\locale\\*\" -include tdlib-purple.mo -Recurse -Force",
-            "   Remove-Item \"$pidgin\\pixmaps\\*\" -include telegram.png -Recurse -Force",
-            "   Remove-Item \"$pidgin\\plugins\\libtelegram-tdlib.dll\" -Force",
-            "}"
+            "Remove-Item \"$pidgin\\locale\\*\" -Include tdlib-purple.mo -Recurse -Force",
+            "Remove-Item \"$pidgin\\pixmaps\\*\" -Include telegram.png -Recurse -Force",
+            "Remove-Item \"$pidgin\\plugins\\libtelegram-tdlib.dll\" -Force"
         ]
     },
     "checkver": "github",
