@@ -14,9 +14,9 @@ To add this bucket, run `scoop bucket add holes https://github.com/instinctualje
 Notes:
 ---------------------------------
 
-* Some manifests point to self-hosted URLs and connect with ~~insecure HTTP~~ (upgraded to HTTPS since I'm hosting my webpage with GitHub Pages now... still, be sure to read JSONs so you know what they're doing)
+* Some manifests point to self-hosted URLs (now using HTTPS since I'm hosting my page with GitHub Pages- still, be sure to read JSONs and investigate ZIPs so you know what they're doing)
 * I will put notes in the manifests for programs that have first-run, cleanup, or persistence concerns that are beyond the scope of Scoop
 * A few manifests do not have checkver/autoupdate routines due to being:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
    * Difficult to implement, due to poor documentation or website design
-* The rare manifest that doesn't have $version in URL or filename will result in hash fails when it's updated on server- that is, if I don't keep up on autoupdates as fast as possible
+* The rare manifest that doesn't have $version in URL or filename will result in hash fails when the referenced software is updated on server- if I don't keep up on updating the manifests, of course
