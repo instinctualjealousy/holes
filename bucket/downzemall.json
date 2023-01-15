@@ -1,5 +1,5 @@
 {
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "Standalone recreation of DownThemAll! on Qt6",
     "homepage": "https://github.com/setvisible/DownZemAll",
     "license": "LGPL-3.0-only",
@@ -9,8 +9,8 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/setvisible/DownZemAll/releases/download/v3.0.1/DownZemAll_v3.0.1_windows-mingw-x64.zip",
-            "hash": "28b0c7eadc1fb483b77bb7155673ee3f234d0aeb709ca123bed8662dc52fa270"
+            "url": "https://github.com/setvisible/DownZemAll/releases/download/v3.0.2/DownZemAll_v3.0.2_windows-mingw-x64.zip",
+            "hash": "452a52d06bacdf7a9a796d896045e3f85eb352fd3208dc1f98bcfac5fba18cca"
         }
     },
     "installer": {
