@@ -1,11 +1,11 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "JPEG XL filetype plugin for paint.net",
     "homepage": "https://github.com/0xC0000054/pdn-jpegxl",
     "license": "MIT",
     "depends": "extras/paint.net",
-    "url": "https://github.com/0xC0000054/pdn-jpegxl/releases/download/v1.0.2/JpegXLFileType.zip",
-    "hash": "8c03f0a78b3b87d3308b59765e17f3336449211731ad776276aa52451915e025",
+    "url": "https://github.com/0xC0000054/pdn-jpegxl/releases/download/v1.0.3/JpegXLFileType.zip",
+    "hash": "054f64ab2abd5705eace81542a8c89edbce6298202a5181ecfeee92bff3644d4",
     "pre_install": [
         "$pluginFolder = Join-Path (appdir 'paint.net' $global) 'current\\FileTypes'",
         "Copy-Item \"$dir\\*.dll\" $pluginFolder -Force",
