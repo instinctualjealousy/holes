@@ -1,12 +1,12 @@
 {
-    "version": "0.22.0",
+    "version": "0.22.2",
     "description": "Ready-to-use RTSP/RTMP/HLS server and proxy that allows one to read, publish and proxy video and audio streams",
     "homepage": "https://github.com/aler9/mediamtx",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aler9/mediamtx/releases/download/v0.22.0/mediamtx_v0.22.0_windows_amd64.zip",
-            "hash": "9971f077ed1e52c5177ef93934572dc9bedcebc0fd0d04790503590a3b7edf89"
+            "url": "https://github.com/aler9/mediamtx/releases/download/v0.22.2/mediamtx_v0.22.2_windows_amd64.zip",
+            "hash": "2f2c91844b21ae529e56c03ddd79ae4ccc3576e1e00c957ec9c3aa4b6c81e5d0"
         }
     },
     "bin": "mediamtx.exe",
