@@ -1,0 +1,39 @@
+{
+    "version": "1.342",
+    "description": "Advanced registry editor for Windows",
+    "homepage": "https://kurtzimmermann.com/",
+    "license": "Freeware",
+    "notes": "RegCool Portable has an updating mechanism included, but it IS disabled by default.",
+    "architecture": {
+        "64bit": {
+            "url": "https://kurtzimmermann.com/files/RegCoolX64.zip",
+            "hash": "e4135d16eff2cb83af783f98528e81e4e4196608886016f5559b011ba019ac86"
+        },
+        "32bit": {
+            "url": "https://kurtzimmermann.com/files/RegCoolX32.zip",
+            "hash": "e20e1517512ae8ce9ffd5bd442f8ae3bc468dd3ef72fa318b61c37f714ea0c68"
+        }
+    },
+    "pre_install": "if (!(Test-Path \"$persist_dir\\Settings\")) { New-Item -ItemType Directory \"$dir\\Settings\" | Out-Null }",
+    "shortcuts": [
+        [
+            "RegCool.exe",
+            "RegCool"
+        ]
+    ],
+    "persist": "Settings",
+    "checkver": {
+        "url": "https://www.majorgeeks.com/files/details/regcool.html",
+        "regex": "RegCool ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://kurtzimmermann.com/files/RegCoolX64.zip"
+            },
+            "32bit": {
+                "url": "https://kurtzimmermann.com/files/RegCoolX32.zip"
+            }
+        }
+    }
+}
