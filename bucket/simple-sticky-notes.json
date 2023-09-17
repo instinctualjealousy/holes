@@ -13,9 +13,7 @@
     "innosetup": true,
     "pre_install": [
         "if(!(Test-Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\")) { New-Item -Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\" -Force | Out-Null }",
-        "if(Test-Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\") { New-ItemProperty -Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\" -Name CheckUpdates -Value 0 -PropertyType DWord -Force | Out-Null }",
-        "if(Test-Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\") { New-ItemProperty -Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\" -Name DBLocation -Value \"$persist_dir\\\" -PropertyType String -Force | Out-Null }",
-        "if(!(Test-Path \"$persist_dir\")) { New-Item -Path \"$persist_dir\" -ItemType Directory -Force | Out-Null }"
+        "if(Test-Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\") { New-ItemProperty -Path \"HKCU:\\SOFTWARE\\Simnet\\Simple Sticky Notes\" -Name CheckUpdates -Value 0 -PropertyType DWord -Force | Out-Null }"
     ],
     "shortcuts": [
         [
