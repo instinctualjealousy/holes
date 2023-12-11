@@ -1,7 +1,7 @@
 {
-    "version": "1.0.6",
-    "homepage": "https://github.com/FiniteSingularity/obs-composite-blur",
-    "description": "A comprehensive blur plugin for OBS",
+    "version": "0.1.4",
+    "homepage": "https://github.com/exeldro/obs-source-clone",
+    "description": "Add source to OBS that lets you clone sources to allow different filters than the original",
     "license": "GPL-2.0",
     "notes": "If you don't have any obs-studio version installed in your computer, please install one of the following below. Then uninstall this app and install it again.",
     "suggest": {
@@ -11,8 +11,8 @@
             "versions/obs-studio-pre"
         ]
     },
-    "url": "https://github.com/FiniteSingularity/obs-composite-blur/releases/download/v1.0.6/obs-composite-blur-1.0.6-windows.zip",
-    "hash": "1e1a57ee831e5b34a97c0c673c76973fdc6a7f3647b6bb21181d6949cf9a2791",
+    "url": "https://obsproject.com/forum/resources/source-clone.1632/version/4881/download?file=93640#/dl.zip",
+    "hash": "b27fe7e4b2d6b69b8fe2d7441fa1303249d2a737f6eb9312592b1dde30284225",
     "pre_install": [
         "    if ($architecture -eq '64bit') {",
         "        Remove-Item \"$dir\\obs-plugins\\32bit\" -Recurse",
@@ -34,14 +34,14 @@
         "    $obs = \"$(appdir $_ $global)\"",
         "    if (Test-Path $obs) {",
         "        info \"Uninstall for $_\"",
-        "        Remove-Item \"$obs\\current\\data\\obs-plugins\\obs-composite-blur\" -Force -Recurse -ErrorAction SilentlyContinue",
-        "        Remove-Item \"$obs\\current\\obs-plugins\\32bit\\obs-composite-blur.*\" -Force -ErrorAction SilentlyContinue",
-        "        Remove-Item \"$obs\\current\\obs-plugins\\64bit\\obs-composite-blur.*\" -Force -ErrorAction SilentlyContinue",
+        "        Remove-Item \"$obs\\current\\data\\obs-plugins\\source-clone\" -Force -Recurse -ErrorAction SilentlyContinue",
+        "        Remove-Item \"$obs\\current\\obs-plugins\\32bit\\source-clone.*\" -Force -ErrorAction SilentlyContinue",
+        "        Remove-Item \"$obs\\current\\obs-plugins\\64bit\\source-clone.*\" -Force -ErrorAction SilentlyContinue",
         "    }",
         "}"
     ],
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/FiniteSingularity/obs-composite-blur/releases/download/v$version/obs-composite-blur-$version-windows.zip"
+        "url": "https://obsproject.com/forum/resources/source-clone.1632/version/4881/download?file=93640#/dl.zip"
     }
 }
