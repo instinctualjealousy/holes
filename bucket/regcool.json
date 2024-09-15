@@ -1,5 +1,5 @@
 {
-    "version": "2.010",
+    "version": "2.013",
     "description": "Advanced registry editor for Windows",
     "homepage": "https://kurtzimmermann.com/",
     "license": "Freeware",
@@ -7,11 +7,11 @@
     "architecture": {
         "64bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX64.zip",
-            "hash": "efde83af7cc9f00f7b5752d69494f05a7e12072f0d10705fb26c34b05405df53"
+            "hash": "eb409379d43d50b774494d5edcd66772210a44129388af702c448446c8fc7754"
         },
         "32bit": {
             "url": "https://kurtzimmermann.com/files/RegCoolX32.zip",
-            "hash": "34a0f8bdcdb462141de69b1837e0b31b21338233620e8d28d3ad68433e88068a"
+            "hash": "bdcc87e72db27c170837157588e71bc9c065141b9c51f628b5fa4cd50cb0b9d0"
         }
     },
     "pre_install": "if (!(Test-Path \"$persist_dir\\Settings\")) { New-Item -ItemType Directory \"$dir\\Settings\" | Out-Null }",
