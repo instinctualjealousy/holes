@@ -1,17 +1,17 @@
 {
-    "version": "1.14.0",
+    "version": "1.14.1",
     "description": "Client for viewing VNC-enabled computers",
     "homepage": "http://tigervnc.org",
     "license": "GPL-2.0-only",
     "notes": "TigerVNC Client stores its settings at \"HKCU\\SOFTWARE\\TigerVNC\\vncviewer\".",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/tigervnc/files/stable/1.14.0/vncviewer64-1.14.0.exe/download#/vncviewer.exe",
-            "hash": "bf4bee582f17d6b87408ea7184f5717ffa3a2eddc44b7cc40941b0c6cd0db966"
+            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.14.1/vncviewer64-1.14.1.exe#/vncviewer.exe",
+            "hash": "sha1:8eba512c4689c5748286a2ff34cf9f9384d09e9c"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/tigervnc/files/stable/1.14.0/vncviewer-1.14.0.exe/download#/vncviewer.exe",
-            "hash": "482ead3f8b27fd109e5b7d26120747317a91398263ffcefccb0dda09bf6f6730"
+            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.14.1/vncviewer-1.14.1.exe#/vncviewer.exe",
+            "hash": "sha1:ff058d3bf9f276240ba60dd621dfebdade791532"
         }
     },
     "bin": "vncviewer.exe",
@@ -27,10 +27,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://sourceforge.net/projects/tigervnc/files/stable/$version/vncviewer64-$version.exe/download#/vncviewer.exe"
+                "url": "https://downloads.sourceforge.net/project/tigervnc/stable/$version/vncviewer64-$version.exe#/vncviewer.exe"
             },
             "32bit": {
-                "url": "https://sourceforge.net/projects/tigervnc/files/stable/$version/vncviewer-$version.exe/download#/vncviewer.exe"
+                "url": "https://downloads.sourceforge.net/project/tigervnc/stable/$version/vncviewer-$version.exe#/vncviewer.exe"
             }
         }
     }
