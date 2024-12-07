@@ -1,8 +1,9 @@
 {
     "homepage": "https://github.com/Heroic-Games-Launcher/heroic-gogdl",
-    "description": "GOG Downloading module for Heroic Games Launcher",
+    "description": "GOG downloading module built for Heroic Games Launcher",
     "version": "1.1.2",
     "license": "GPL-3.0-only",
+    "notes": "gogdl stores its cache at \"%appdata%\\heroic_gogdl\".",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Heroic-Games-Launcher/heroic-gogdl/releases/download/v1.1.2/gogdl_windows_x86_64.exe#/gogdl.exe",

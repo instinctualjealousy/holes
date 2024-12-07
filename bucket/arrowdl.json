@@ -5,7 +5,7 @@
     "license": "LGPL-3.0-only",
     "notes": [
         "ArrowDL stores its settings at \"HKCU\\SOFTWARE\\Sebastien Vavassori\\ArrowDL\".",
-        "Stream cache is left at \"C:\\Users\\<username>\\.cache\"."
+        "Stream cache is left at \"%userprofile%\\.cache\"."
     ],
     "architecture": {
         "64bit": {
