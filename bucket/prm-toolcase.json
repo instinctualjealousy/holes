@@ -7,6 +7,5 @@
     "url": "https://raw.githubusercontent.com/instinctualjealousy/holes/refs/heads/master/mirror/prmtool.7z",
     "extract_dir": "tools\\prm",
     "hash": "a69ce7900a9b5e9212ee285d70a052afaa686228444af9a6a79d0348020d7125",
-    "post_install": "Remove-Item \"$dir\\tools\"",
     "bin": "prm.exe"
 }
