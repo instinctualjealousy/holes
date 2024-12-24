@@ -1,0 +1,26 @@
+{
+    "version": "3.2.0.0",
+    "description": "f2ko's Bat to Exe Converter, does what it says on the tin",
+    "homepage": "https://www.f2ko.de/programme/bat-to-exe-converter",
+    "license": "Freeware",
+    "url": "https://raw.githubusercontent.com/instinctualjealousy/holes/refs/heads/master/mirror/Bat_To_Exe_Converter_Portable.7z",
+    "hash": "021c51786814c0f5ad62a89e2afae27718e93c2eccf3566d2d23c0f33aa50c87",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\settings\")) { New-Item \"$dir\\settings\" | Out-Null }",
+        "if ($architecture -eq '64bit') {",
+        "     Remove-Item \"$dir\\Bat_To_Exe_Converter.exe\"",
+        "     Rename-Item \"$dir\\Bat_To_Exe_Converter_(x64).exe\" -NewName \"$dir\\Bat_To_Exe_Converter.exe\"",
+        "}",
+        "elseif ($architecture -eq '32bit') {",
+        "     Remove-Item \"$dir\\Bat_To_Exe_Converter_(x64).exe\"",
+        "}"
+    ],
+    "bin": "Bat_To_Exe_Converter.exe",
+    "shortcuts": [
+        [
+            "Bat_To_Exe_Converter.exe",
+            "Bat To Exe Converter"
+        ]
+    ],
+    "persist": "settings"
+}
