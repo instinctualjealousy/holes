@@ -19,3 +19,4 @@ Notes:
    * Unnecessary, as the software has not been maintained for years, or was a single-release that was never maintained
    * Difficult to implement, due to poor documentation or website design
 * The rare manifest that doesn't have $version in URL or filename will result in hash fails when the referenced software is updated on server- if I don't keep up on updating the manifests, of course
+* Some manifests point to mirrored and repacked archives because they aren't hosted anywhere easily accessible by scoop (check `mirror` directory)
