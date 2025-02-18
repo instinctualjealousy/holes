@@ -1,17 +1,17 @@
 {
-    "version": "1.14.1",
+    "version": "1.15.0",
     "description": "Client for viewing VNC-enabled computers",
     "homepage": "http://tigervnc.org",
     "license": "GPL-2.0-only",
     "notes": "TigerVNC Client stores its settings at \"HKCU\\SOFTWARE\\TigerVNC\\vncviewer\".",
     "architecture": {
         "64bit": {
-            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.14.1/vncviewer64-1.14.1.exe#/vncviewer.exe",
-            "hash": "sha1:8eba512c4689c5748286a2ff34cf9f9384d09e9c"
+            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.15.0/vncviewer64-1.15.0.exe#/vncviewer.exe",
+            "hash": "sha1:b04af95758c8c3c2da9f4c3c6402e3004e9f89d7"
         },
         "32bit": {
-            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.14.1/vncviewer-1.14.1.exe#/vncviewer.exe",
-            "hash": "sha1:ff058d3bf9f276240ba60dd621dfebdade791532"
+            "url": "https://downloads.sourceforge.net/project/tigervnc/stable/1.15.0/vncviewer-1.15.0.exe#/vncviewer.exe",
+            "hash": "sha1:7804d0a02291a266f6647ec780ab772f1ea780f3"
         }
     },
     "bin": "vncviewer.exe",
