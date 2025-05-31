@@ -1,11 +1,11 @@
 {
-    "version": "1.29.0",
+    "version": "1.29.1",
     "description": "Universal .NET Core powered modding framework for any native game",
     "homepage": "https://github.com/Reloaded-Project/Reloaded-II",
     "license": "GPL-3.0-only",
     "notes": "Requires .NET 9 Desktop Runtime",
-    "url": "https://github.com/Reloaded-Project/Reloaded-II/releases/download/1.29.0/Release.zip",
-    "hash": "2a2a20092dd632e7b234089019000a5f5523ced7d08c97c1ac55d52dd9595781",
+    "url": "https://github.com/Reloaded-Project/Reloaded-II/releases/download/1.29.1/Release.zip",
+    "hash": "4a4aed33436bd3e828f27309d3d842f424a6d5a758e07f81e2d887fb1381ea7d",
     "architecture": {
         "64bit": {
             "shortcuts": [
