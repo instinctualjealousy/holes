@@ -1,5 +1,5 @@
 {
-    "version": "2.25.2-20250915",
+    "version": "2.26-20251012",
     "description": "Preview build of foobar2000: easy migration between preview and stable",
     "homepage": "https://www.foobar2000.org/",
     "license": {
@@ -11,12 +11,12 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.25.2_preview_2025-09-15.exe#/dl.7z",
-            "hash": "48070c39b9a0b2c22aaa291a3c26968b6dc37782a5f4b8230edc2e51e8fa03f7"
+            "url": "https://www.foobar2000.org/files/foobar2000-x64_v2.26_preview_2025-10-12.exe#/dl.7z",
+            "hash": "9617a5bfe48c7fc65807a21c9b98cba1b406b341f56a144e819593dd66ecaf03"
         },
         "32bit": {
-            "url": "https://www.foobar2000.org/files/foobar2000_v2.25.2_preview_2025-09-15.exe#/dl.7z",
-            "hash": "039212570d37e16a704ccfe4e31792f2319eb438f4648c560caf8e52eee3c4e6"
+            "url": "https://www.foobar2000.org/files/foobar2000_v2.26_preview_2025-10-12.exe#/dl.7z",
+            "hash": "f5eb827c23fd0968c829e9d66dde8678b31b08802512d8a5c10afbf8246cb3a8"
         }
     },
     "installer": {
