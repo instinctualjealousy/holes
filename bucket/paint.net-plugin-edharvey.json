@@ -7,13 +7,14 @@
     "url": "https://raw.githubusercontent.com/instinctualjealousy/holes/refs/heads/master/mirror/EdHarveyEffects.zip",
     "hash": "3df006dba2d4f009fb31668ecd554da3154e1e95fc6d250cb122998b4b9f20c4",
     "post_install": [
-        "$paintdotnet = \"$(appdir paint.net)\\current\\Effects\"",
-        "Move-Item -Path \"$dir\\EdHarvey.Edfects.*\" -Destination \"$paintdotnet\" -Force"
+        "$paintdotnet = \"$(appdir paint.net)\\current\\Effects\\EdHarvey\"",
+        "New-Item \"$paintdotnet\" -ItemType Directory -Force",
+        "Move-Item -Path \"$dir\\*\" -Destination \"$paintdotnet\" -Force"
     ],
     "uninstaller": {
         "script": [
-            "$paintdotnet = \"$(appdir paint.net)\\current\\Effects\"",
-            "Remove-Item \"$paintdotnet\\EdHarvey.Edfects.*\" -Force"
+            "$paintdotnet = \"$(appdir paint.net)\\current\\Effects\\EdHarvey\"",
+            "Remove-Item \"$paintdotnet\" -Force -Recurse"
         ]
     }
 }
