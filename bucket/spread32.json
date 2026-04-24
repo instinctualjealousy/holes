@@ -11,5 +11,11 @@
             "Spread32.exe",
             "Spread32"
         ]
+    ],
+    "bin": [
+        [
+            "Spread32.exe",
+            "Spread32"
+        ]
     ]
 }
