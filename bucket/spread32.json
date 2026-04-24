@@ -1,0 +1,15 @@
+{
+    "version": "1.18",
+    "description": "A small, lightweight spreadsheet editor (old, freeware version)",
+    "homepage": "https://www.byedesign.co.uk/",
+    "license": "Unknown",
+    "notes": "Spread32 stores its settings at \"HKCU\\SOFTWARE\\Bye Design\\Spread32\".",
+    "url": "https://archive.org/download/spread-32-1.18/Spread32_1.18.zip",
+    "hash": "f1193d9248c25e076a4b7ba4576cf00ed1d28def5e347cdd70ac17cd48dd08dc",
+    "shortcuts": [
+        [
+            "Spread32.exe",
+            "Spread32"
+        ]
+    ]
+}
