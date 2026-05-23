@@ -14,6 +14,9 @@
         }
     },
     "post_install": [
+        "Write-Host \"\"",
+        "Write-Host \"Downloading missing Edge extension manifest\"",
+        "Invoke-WebRequest -Uri \"https://raw.githubusercontent.com/setvisible/ArrowDL/refs/heads/develop/web-extension/launcher/windows/launcher-manifest-edge.json\" -OutFile \"$dir\\launcher-manifest-edge.json\"",
         "Write-Host \"Register NativeMessagingHosts for browsers\"",
         "Start-Process -FilePath \"$dir\\install.bat\" -ArgumentList \"-quiet\" -NoNewWindow -Wait"
     ],
