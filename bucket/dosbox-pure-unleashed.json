@@ -18,7 +18,14 @@
         }
     },
     "bin": "DOSBoxPure.exe",
+    "shortcuts": [
+        [
+            "DOSBoxPure.exe",
+            "DOSBox Pure Unleashed"
+        ]
+    ],
     "pre_install": [
+        "if (!(Test-Path \"$persist_dir\")) { New-Item -Path \"$persist_dir\" -ItemType Directory | Out-Null }",
         "if (!(Test-Path \"$persist_dir/DOSBoxPure.cfg\")) { New-Item -Path \"$persist_dir/DOSBoxPure.cfg\" -ItemType File | Out-Null }",
         "if (!(Test-Path \"$persist_dir/saves\")) { New-Item -Path \"$persist_dir/saves\" -ItemType Directory | Out-Null }",
         "if (!(Test-Path \"$persist_dir/system\")) { New-Item -Path \"$persist_dir/system\" -ItemType Directory | Out-Null }",
