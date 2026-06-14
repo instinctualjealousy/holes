@@ -37,7 +37,7 @@
     ],
     "checkver": {
         "url": "https://git.dinox.im/dinoxim/dinox/releases",
-        "regex": "Release v([\\d.]+)"
+        "regex": "releases/tag/v([0-9]+(?:\\.[0-9]+)*)"
     },
     "autoupdate": {
         "architecture": {
