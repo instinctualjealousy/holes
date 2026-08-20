@@ -50,7 +50,7 @@
         "Get-ChildItem \"$dir\\ConvertWithMoss\\*\" | Move-Item -Destination \"$dir\" -Force",
         "Remove-Item \"$dir\\ConvertWithMoss\" -Recurse -Force -ErrorAction SilentlyContinue"
     ],
-    "bin": "ConvertWithMoss.exe",
+    "bin": "ConvertWithMossCLI.exe",
     "shortcuts": [
         [
             "ConvertWithMoss.exe",
